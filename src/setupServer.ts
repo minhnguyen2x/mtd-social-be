@@ -22,7 +22,6 @@ import { SocketIONotificationHandler } from '@socket/notification';
 import { SocketIOImageHandler } from '@socket/image';
 import { SocketIOChatHandler } from '@socket/chat';
 
-const SERVER_PORT = 5000;
 const log: Logger = config.createLogger('server');
 
 export class ChattyServer {
@@ -127,8 +126,8 @@ export class ChattyServer {
   private startHttpServer(httpServer: http.Server): void {
     log.info(`Worker with process id of ${process.pid} has started...`);
     log.info(`Server has started with process ${process.pid}`);
-    httpServer.listen(SERVER_PORT, () => {
-      log.info(`Server running on port ${SERVER_PORT}`);
+    httpServer.listen(config.SERVER_PORT, () => {
+      log.info(`Server running on port ${config.SERVER_PORT}`);
     });
   }
 
