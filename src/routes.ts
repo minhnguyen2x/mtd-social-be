@@ -15,7 +15,7 @@ import { healthRoutes } from '@user/routes/healthRoutes';
 
 const BASE_PATH = '/api/v1';
 
-export default (app: Application) => {
+export const setUpApplicationRoutes = (app: Application) => {
   const routes = () => {
     app.use('/queues', serverAdapter.getRouter());
     app.use('', healthRoutes.health());
@@ -36,5 +36,6 @@ export default (app: Application) => {
     app.use(BASE_PATH, authMiddleware.verifyUser, chatRoutes.routes());
     app.use(BASE_PATH, authMiddleware.verifyUser, userRoutes.routes());
   };
+
   routes();
 };

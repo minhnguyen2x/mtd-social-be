@@ -1,5 +1,5 @@
 import express, { Express } from 'express';
-import { ChattyServer } from '@root/setupServer';
+import { ChattyServer } from '@root/setup-server';
 import databaseConnection from '@root/setupDatabase';
 import { config } from '@root/config';
 import Logger from 'bunyan';

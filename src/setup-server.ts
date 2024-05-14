@@ -13,7 +13,7 @@ import Logger from 'bunyan';
 import apiStats from 'swagger-stats';
 import 'express-async-errors';
 import { config } from '@root/config';
-import applicationRoutes from '@root/routes';
+import { setUpApplicationRoutes } from '@root/routes';
 import { CustomError, IErrorResponse } from '@global/helpers/error-handler';
 import { SocketIOPostHandler } from '@socket/post';
 import { SocketIOFollowerHandler } from '@socket/follower';
@@ -70,7 +70,7 @@ export class ChattyServer {
   }
 
   private routesMiddleware(app: Application): void {
-    applicationRoutes(app);
+    setUpApplicationRoutes(app);
   }
 
   private apiMonitoring(app: Application): void {
