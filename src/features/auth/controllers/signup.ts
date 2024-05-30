@@ -1,8 +1,8 @@
 import { ObjectId } from 'mongodb';
 import { Request, Response } from 'express';
 import { joiValidation } from '@global/decorators/joi-validation.decorators';
-import { signupSchema } from '@auth/schemes/signup';
-import { IAuthDocument, ISignUpData } from '@auth/interfaces/auth.interface';
+import { signupSchema } from '@features/auth/schemes/signup';
+import { IAuthDocument, ISignUpData } from '@features/auth/interfaces/auth.interface';
 import { authService } from '@service/db/auth.service';
 import { Helpers } from '@global/helpers/helpers';
 import { UploadApiResponse } from 'cloudinary';

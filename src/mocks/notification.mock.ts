@@ -1,4 +1,4 @@
-import { AuthPayload } from '@auth/interfaces/auth.interface';
+import { AuthPayload } from '@features/auth/interfaces/auth.interface';
 import { INotificationDocument } from '@notification/interfaces/notification.interface';
 import { Response } from 'express';
 import { IJWT } from './auth.mock';

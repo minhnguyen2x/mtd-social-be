@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Response } from 'express';
 import { IFileImageDocument } from '@image/interfaces/image.interface';
-import { AuthPayload } from '@auth/interfaces/auth.interface';
+import { AuthPayload } from '@features/auth/interfaces/auth.interface';
 import { IJWT } from './auth.mock';
 import mongoose from 'mongoose';
 

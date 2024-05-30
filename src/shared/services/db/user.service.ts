@@ -3,7 +3,7 @@ import { UserModel } from '@user/models/user.schema';
 import mongoose from 'mongoose';
 import { indexOf } from 'lodash';
 import { followerService } from '@service/db/follower.service';
-import { AuthModel } from '@auth/models/auth.schema';
+import { AuthModel } from '@features/auth/models/auth.schema';
 
 class UserService {
   public async addUserData(data: IUserDocument): Promise<void> {

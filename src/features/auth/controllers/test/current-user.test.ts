@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { CurrentUser } from '@auth/controllers/current-user';
+import { CurrentUser } from '@features/auth/controllers/current-user';
 import { authMockRequest, authMockResponse, authUserPayload } from '@root/mocks/auth.mock';
 import { existingUser } from '@root/mocks/user.mock';
 import { UserCache } from '@service/redis/user.cache';

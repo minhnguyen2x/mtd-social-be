@@ -2,7 +2,7 @@
 import { authMock, authMockRequest, authMockResponse } from '@root/mocks/auth.mock';
 import { Request, Response } from 'express';
 import { CustomError } from '@global/helpers/error-handler';
-import { SignIn } from '@auth/controllers/signin';
+import { SignIn } from '@features/auth/controllers/signin';
 import { Helpers } from '@global/helpers/helpers';
 import { authService } from '@service/db/auth.service';
 import { userService } from '@service/db/user.service';

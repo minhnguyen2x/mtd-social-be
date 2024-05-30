@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Request, Response } from 'express';
 import * as cloudinaryUploads from '@global/helpers/cloudinary-upload';
-import { SignUp } from '@auth/controllers/signup';
+import { SignUp } from '@features/auth/controllers/signup';
 import { CustomError } from '@global/helpers/error-handler';
 import { authMock, authMockRequest, authMockResponse } from '@root/mocks/auth.mock';
 import { authService } from '@service/db/auth.service';

@@ -1,5 +1,5 @@
 import mongoose, { Document } from 'mongoose';
-import { AuthPayload } from '@auth/interfaces/auth.interface';
+import { AuthPayload } from '@features/auth/interfaces/auth.interface';
 import { IReaction } from '@reaction/interfaces/reaction.interface';
 
 export interface IMessageDocument extends Document {
