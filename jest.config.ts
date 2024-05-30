@@ -22,7 +22,7 @@ const config: Config.InitialOptions = {
   },
   coverageReporters: ['text-summary', 'lcov'],
   moduleNameMapper: {
-    '@auth/(.*)': ['<rootDir>/src/features/auth/$1'],
+    '@features/(.*)': ['<rootDir>/src/features/$1'],
     '@user/(.*)': ['<rootDir>/src/features/user/$1'],
     '@post/(.*)': ['<rootDir>/src/features/post/$1'],
     '@reaction/(.*)': ['<rootDir>/src/features/reactions/$1'],
@@ -35,7 +35,7 @@ const config: Config.InitialOptions = {
     '@service/(.*)': ['<rootDir>/src/shared/services/$1'],
     '@socket/(.*)': ['<rootDir>/src/shared/sockets/$1'],
     '@worker/(.*)': ['<rootDir>/src/shared/workers/$1'],
-    '@root/(.*)': ['<rootDir>/src/$1'],
+    '@root/(.*)': ['<rootDir>/src/$1']
   }
 };
 
