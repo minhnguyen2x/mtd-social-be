@@ -3,7 +3,7 @@ import HTTP_STATUS from 'http-status-codes';
 import { UserCache } from '@service/redis/user.cache';
 import { userQueue } from '@service/queues/user.queue';
 import { joiValidation } from '@global/decorators/joi-validation.decorators';
-import { basicInfoSchema, socialLinksSchema } from '@user/schemes/info';
+import { basicInfoSchema, socialLinksSchema } from '@features/user/schemes/info';
 
 const userCache: UserCache = new UserCache();
 

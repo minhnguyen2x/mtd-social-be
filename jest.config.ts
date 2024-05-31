@@ -23,7 +23,6 @@ const config: Config.InitialOptions = {
   coverageReporters: ['text-summary', 'lcov'],
   moduleNameMapper: {
     '@features/(.*)': ['<rootDir>/src/features/$1'],
-    '@user/(.*)': ['<rootDir>/src/features/user/$1'],
     '@post/(.*)': ['<rootDir>/src/features/post/$1'],
     '@reaction/(.*)': ['<rootDir>/src/features/reactions/$1'],
     '@comment/(.*)': ['<rootDir>/src/features/comments/$1'],

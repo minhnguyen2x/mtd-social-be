@@ -3,7 +3,7 @@ import HTTP_STATUS from 'http-status-codes';
 import { FollowerCache } from '@service/redis/follower.cache';
 import { PostCache } from '@service/redis/post.cache';
 import { UserCache } from '@service/redis/user.cache';
-import { IAllUsers, IUserDocument } from '@user/interfaces/user.interface';
+import { IAllUsers, IUserDocument } from '@features/user/interfaces/user.interface';
 import { userService } from '@service/db/user.service';
 import { IFollowerData } from '@follower/interfaces/follower.interface';
 import { followerService } from '@service/db/follower.service';

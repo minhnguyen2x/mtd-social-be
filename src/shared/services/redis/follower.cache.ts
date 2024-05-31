@@ -6,7 +6,7 @@ import { config } from '@root/config';
 import { ServerError } from '@global/helpers/error-handler';
 import { IFollowerData } from '@follower/interfaces/follower.interface';
 import { UserCache } from '@service/redis/user.cache';
-import { IUserDocument } from '@user/interfaces/user.interface';
+import { IUserDocument } from '@features/user/interfaces/user.interface';
 import { Helpers } from '@global/helpers/helpers';
 
 const log: Logger = config.createLogger('followersCache');

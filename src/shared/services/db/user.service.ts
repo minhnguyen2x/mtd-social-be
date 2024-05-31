@@ -1,5 +1,5 @@
-import { IBasicInfo, ISearchUser, IUserDocument, ISocialLinks, INotificationSettings } from '@user/interfaces/user.interface';
-import { UserModel } from '@user/models/user.schema';
+import { IBasicInfo, ISearchUser, IUserDocument, ISocialLinks, INotificationSettings } from '@features/user/interfaces/user.interface';
+import { UserModel } from '@features/user/models/user.schema';
 import mongoose from 'mongoose';
 import { indexOf } from 'lodash';
 import { followerService } from '@service/db/follower.service';

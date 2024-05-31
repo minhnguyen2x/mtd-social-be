@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Request, Response } from 'express';
 import { authMockRequest, authMockResponse, authUserPayload } from '@root/mocks/auth.mock';
-import { Update } from '@user/controllers/change-password';
+import { Update } from '@features/user/controllers/change-password';
 import { CustomError } from '@global/helpers/error-handler';
 import { existingUser } from '@root/mocks/user.mock';
 import { emailQueue } from '@service/queues/email.queue';

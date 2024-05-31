@@ -3,7 +3,7 @@ import { ObjectId } from 'mongodb';
 import HTTP_STATUS from 'http-status-codes';
 import { FollowerCache } from '@service/redis/follower.cache';
 import { UserCache } from '@service/redis/user.cache';
-import { IUserDocument } from '@user/interfaces/user.interface';
+import { IUserDocument } from '@features/user/interfaces/user.interface';
 import { IFollowerData } from '@follower/interfaces/follower.interface';
 import mongoose from 'mongoose';
 import { socketIOFollowerObject } from '@socket/follower';

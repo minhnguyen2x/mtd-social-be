@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { authUserPayload, authMockRequest, authMockResponse } from '@root/mocks/auth.mock';
 import { Server } from 'socket.io';
 import * as userServer from '@socket/user';
-import { Edit } from '@user/controllers/update-basic-info';
+import { Edit } from '@features/user/controllers/update-basic-info';
 import { UserCache } from '@service/redis/user.cache';
 import { userQueue } from '@service/queues/user.queue';
 

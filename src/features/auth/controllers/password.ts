@@ -10,7 +10,7 @@ import { emailSchema, passwordSchema } from '@features/auth/schemes/password';
 import crypto from 'crypto';
 import { forgotPasswordTemplate } from '@service/emails/templates/forgot-password/forgot-password-template';
 import { emailQueue } from '@service/queues/email.queue';
-import { IResetPasswordParams } from '@user/interfaces/user.interface';
+import { IResetPasswordParams } from '@features/user/interfaces/user.interface';
 import { resetPasswordTemplate } from '@service/emails/templates/reset-password/reset-password-template';
 import { BadRequestError } from '@global/helpers/error-handler';
 

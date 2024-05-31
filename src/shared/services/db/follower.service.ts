@@ -1,10 +1,10 @@
 import { FollowerModel } from '@follower/models/follower.schema';
-import { UserModel } from '@user/models/user.schema';
+import { UserModel } from '@features/user/models/user.schema';
 import { ObjectId, BulkWriteResult } from 'mongodb';
 import mongoose, { Query } from 'mongoose';
 import { IFollowerData, IFollowerDocument } from '@follower/interfaces/follower.interface';
 import { IQueryDeleted, IQueryComplete } from '@post/interfaces/post.interface';
-import { IUserDocument } from '@user/interfaces/user.interface';
+import { IUserDocument } from '@features/user/interfaces/user.interface';
 import { INotificationDocument, INotificationTemplate } from '@notification/interfaces/notification.interface';
 import { NotificationModel } from '@notification/models/notification.schema';
 import { socketIONotificationObject } from '@socket/notification';

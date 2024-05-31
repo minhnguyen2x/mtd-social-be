@@ -10,8 +10,8 @@ import { followerRoutes } from '@follower/routes/followerRoutes';
 import { notificationRoutes } from '@notification/routes/notificationRoutes';
 import { imageRoutes } from '@image/routes/imageRoutes';
 import { chatRoutes } from '@chat/routes/chatRoutes';
-import { userRoutes } from '@user/routes/userRoutes';
-import { healthRoutes } from '@user/routes/healthRoutes';
+import { userRoutes } from '@features/user/routes/userRoutes';
+import { healthRoutes } from '@features/user/routes/healthRoutes';
 
 const BASE_PATH = '/api/v1';
 

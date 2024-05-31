@@ -8,7 +8,7 @@ import { loginSchema } from '@features/auth/schemes/signin';
 import { IAuthDocument } from '@features/auth/interfaces/auth.interface';
 import { BadRequestError } from '@global/helpers/error-handler';
 import { userService } from '@service/db/user.service';
-import { IUserDocument } from '@user/interfaces/user.interface';
+import { IUserDocument } from '@features/user/interfaces/user.interface';
 
 export class SignIn {
   @joiValidation(loginSchema)

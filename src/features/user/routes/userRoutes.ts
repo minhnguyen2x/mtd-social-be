@@ -1,10 +1,10 @@
 import express, { Router } from 'express';
 import { authMiddleware } from '@global/helpers/auth-middleware';
-import { Get } from '@user/controllers/get-profile';
-import { Search } from '@user/controllers/search-user';
-import { Update } from '@user/controllers/change-password';
-import { Edit } from '@user/controllers/update-basic-info';
-import { UpdateSettings } from '@user/controllers/update-settings';
+import { Get } from '@features/user/controllers/get-profile';
+import { Search } from '@features/user/controllers/search-user';
+import { Update } from '@features/user/controllers/change-password';
+import { Edit } from '@features/user/controllers/update-basic-info';
+import { UpdateSettings } from '@features/user/controllers/update-settings';
 
 class UserRoutes {
   private router: Router;

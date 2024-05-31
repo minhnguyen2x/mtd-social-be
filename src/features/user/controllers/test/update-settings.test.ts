@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { authUserPayload, authMockRequest, authMockResponse } from '@root/mocks/auth.mock';
-import { UpdateSettings } from '@user/controllers/update-settings';
+import { UpdateSettings } from '@features/user/controllers/update-settings';
 import { userQueue } from '@service/queues/user.queue';
 import { UserCache } from '@service/redis/user.cache';
 
