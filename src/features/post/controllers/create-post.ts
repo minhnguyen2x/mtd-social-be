@@ -1,9 +1,9 @@
 import { joiValidation } from '@global/decorators/joi-validation.decorators';
-import { postSchema, postWithImageSchema, postWithVideoSchema } from '@post/schemes/post.schemes';
+import { postSchema, postWithImageSchema, postWithVideoSchema } from '@features/post/schemes/post.schemes';
 import { Request, Response } from 'express';
 import { ObjectId } from 'mongodb';
 import HTTP_STATUS from 'http-status-codes';
-import { IPostDocument } from '@post/interfaces/post.interface';
+import { IPostDocument } from '@features/post/interfaces/post.interface';
 import { PostCache } from '@service/redis/post.cache';
 import { socketIOPostObject } from '@socket/post';
 import { postQueue } from '@service/queues/post.queue';

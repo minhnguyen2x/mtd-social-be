@@ -3,7 +3,7 @@ import { UserModel } from '@features/user/models/user.schema';
 import { ObjectId, BulkWriteResult } from 'mongodb';
 import mongoose, { Query } from 'mongoose';
 import { IFollowerData, IFollowerDocument } from '@follower/interfaces/follower.interface';
-import { IQueryDeleted, IQueryComplete } from '@post/interfaces/post.interface';
+import { IQueryDeleted, IQueryComplete } from '@features/post/interfaces/post.interface';
 import { IUserDocument } from '@features/user/interfaces/user.interface';
 import { INotificationDocument, INotificationTemplate } from '@notification/interfaces/notification.interface';
 import { NotificationModel } from '@notification/models/notification.schema';

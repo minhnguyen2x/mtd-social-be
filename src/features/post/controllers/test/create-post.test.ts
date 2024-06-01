@@ -5,7 +5,7 @@ import { authUserPayload } from '@root/mocks/auth.mock';
 import * as postServer from '@socket/post';
 import { newPost, postMockRequest, postMockResponse } from '@root/mocks/post.mock';
 import { postQueue } from '@service/queues/post.queue';
-import { Create } from '@post/controllers/create-post';
+import { Create } from '@features/post/controllers/create-post';
 import { PostCache } from '@service/redis/post.cache';
 import { CustomError } from '@global/helpers/error-handler';
 import * as cloudinaryUploads from '@global/helpers/cloudinary-upload';

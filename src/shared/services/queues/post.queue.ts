@@ -1,4 +1,4 @@
-import { IPostJobData } from '@post/interfaces/post.interface';
+import { IPostJobData } from '@features/post/interfaces/post.interface';
 import { BaseQueue } from '@service/queues/base.queue';
 import { postWorker } from '@worker/post.worker';
 

@@ -9,7 +9,7 @@ import { IFollowerData } from '@follower/interfaces/follower.interface';
 import { followerService } from '@service/db/follower.service';
 import mongoose from 'mongoose';
 import { Helpers } from '@global/helpers/helpers';
-import { IPostDocument } from '@post/interfaces/post.interface';
+import { IPostDocument } from '@features/post/interfaces/post.interface';
 import { postService } from '@service/db/post.service';
 
 const PAGE_SIZE = 12;

@@ -1,6 +1,6 @@
 import { Helpers } from '@global/helpers/helpers';
-import { IPostDocument } from '@post/interfaces/post.interface';
-import { PostModel } from '@post/models/post.schema';
+import { IPostDocument } from '@features/post/interfaces/post.interface';
+import { PostModel } from '@features/post/models/post.schema';
 import { IQueryReaction, IReactionDocument, IReactionJob } from '@reaction/interfaces/reaction.interface';
 import { ReactionModel } from '@reaction/models/reaction.schema';
 import { UserCache } from '@service/redis/user.cache';

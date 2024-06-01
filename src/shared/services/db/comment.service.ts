@@ -1,7 +1,7 @@
 import { ICommentDocument, ICommentJob, ICommentNameList, IQueryComment } from '@comment/interfaces/comment.interface';
 import { CommentsModel } from '@comment/models/comment.schema';
-import { IPostDocument } from '@post/interfaces/post.interface';
-import { PostModel } from '@post/models/post.schema';
+import { IPostDocument } from '@features/post/interfaces/post.interface';
+import { PostModel } from '@features/post/models/post.schema';
 import mongoose, { Query } from 'mongoose';
 import { UserCache } from '@service/redis/user.cache';
 import { IUserDocument } from '@features/user/interfaces/user.interface';
