@@ -4,7 +4,7 @@ import { serverAdapter } from '@service/queues/base.queue';
 import { currentUserRoutes } from '@features/auth/routes/currentRoutes';
 import { authMiddleware } from '@global/helpers/auth-middleware';
 import { postRoutes } from '@features/post/routes/postRoutes';
-import { reactionRoutes } from '@reaction/routes/reactionRoutes';
+import { reactionRoutes } from '@features/reactions/routes/reactionRoutes';
 import { commentRoutes } from '@comment/routes/commentRoutes';
 import { followerRoutes } from '@follower/routes/followerRoutes';
 import { notificationRoutes } from '@notification/routes/notificationRoutes';

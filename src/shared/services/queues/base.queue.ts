@@ -5,7 +5,7 @@ import { config } from '@root/config';
 import { IAuthJob } from '@features/auth/interfaces/auth.interface';
 import { IEmailJob, IUserJob } from '@features/user/interfaces/user.interface';
 import { IPostJobData } from '@features/post/interfaces/post.interface';
-import { IReactionJob } from '@reaction/interfaces/reaction.interface';
+import { IReactionJob } from '@features/reactions/interfaces/reaction.interface';
 import { ICommentJob } from '@comment/interfaces/comment.interface';
 import { IBlockedUserJobData, IFollowerJobData } from '@follower/interfaces/follower.interface';
 import { INotificationJobData } from '@notification/interfaces/notification.interface';

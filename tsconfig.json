@@ -21,7 +21,6 @@
     "resolveJsonModule": true,
     "plugins": [{ "transform": "typescript-transform-paths" }, { "transform": "typescript-transform-paths", "afterDeclarations": true }],
     "paths": {
-      "@reaction/*": ["src/features/reactions/*"],
       "@comment/*": ["src/features/comments/*"],
       "@follower/*": ["src/features/followers/*"],
       "@notification/*": ["src/features/notifications/*"],

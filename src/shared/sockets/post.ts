@@ -1,5 +1,5 @@
 import { ICommentDocument } from '@comment/interfaces/comment.interface';
-import { IReactionDocument } from '@reaction/interfaces/reaction.interface';
+import { IReactionDocument } from '@features/reactions/interfaces/reaction.interface';
 import { Server, Socket } from 'socket.io';
 
 export let socketIOPostObject: Server;

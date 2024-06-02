@@ -1,4 +1,4 @@
-import { IReactionJob } from '@reaction/interfaces/reaction.interface';
+import { IReactionJob } from '@features/reactions/interfaces/reaction.interface';
 import { BaseQueue } from '@service/queues/base.queue';
 import { reactionWorker } from '@worker/reaction.worker';
 

@@ -3,7 +3,7 @@ import Logger from 'bunyan';
 import { find } from 'lodash';
 import { config } from '@root/config';
 import { ServerError } from '@global/helpers/error-handler';
-import { IReactionDocument, IReactions } from '@reaction/interfaces/reaction.interface';
+import { IReactionDocument, IReactions } from '@features/reactions/interfaces/reaction.interface';
 import { Helpers } from '@global/helpers/helpers';
 
 const log: Logger = config.createLogger('reactionsCache');

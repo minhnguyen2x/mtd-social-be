@@ -1,8 +1,8 @@
 import { Helpers } from '@global/helpers/helpers';
 import { IPostDocument } from '@features/post/interfaces/post.interface';
 import { PostModel } from '@features/post/models/post.schema';
-import { IQueryReaction, IReactionDocument, IReactionJob } from '@reaction/interfaces/reaction.interface';
-import { ReactionModel } from '@reaction/models/reaction.schema';
+import { IQueryReaction, IReactionDocument, IReactionJob } from '@features/reactions/interfaces/reaction.interface';
+import { ReactionModel } from '@features/reactions/models/reaction.schema';
 import { UserCache } from '@service/redis/user.cache';
 import { IUserDocument } from '@features/user/interfaces/user.interface';
 import { omit } from 'lodash';

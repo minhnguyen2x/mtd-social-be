@@ -3,7 +3,7 @@ import { authUserPayload } from '@root/mocks/auth.mock';
 import { reactionMockRequest, reactionMockResponse, reactionData } from '@root/mocks/reactions.mock';
 import { reactionService } from '@service/db/reaction.service';
 import { ReactionCache } from '@service/redis/reaction.cache';
-import { Get } from '@reaction/controllers/get-reactions';
+import { Get } from '@features/reactions/controllers/get-reactions';
 import { postMockData } from '@root/mocks/post.mock';
 import mongoose from 'mongoose';
 
